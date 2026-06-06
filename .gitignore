@@ -1,0 +1,56 @@
+## Core LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+## Intermediate documents and sync files
+*.dvi
+*.xdv
+*-converted-to.*
+*.synctex
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Build tool auxiliary files
+*.fdb_latexmk
+
+## Bibliography auxiliary files (BibTeX / biblatex / biber)
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
+## Glossary and Index auxiliary files
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+
+## Package-specific files (e.g., Beamer, PythonTeX)
+*.nav
+*.snm
+*.vrb
+*.pytxcode
+*.cpt
+
+## Optional: Ignore the final generated PDF 
+## Remove the '#' below if you do not want to track your compiled PDF
+# *.pdf
