@@ -1,64 +1,60 @@
 \documentclass[11pt]{article}
-\usepackage{graphicx} % Required for inserting images
-\setlength{\parindent}{0pt}
-\usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage[utf8]{inputenc} 
+%\usepackage{graphicx} % Required for inserting images
 \usepackage[T1]{fontenc}
-\usepackage[brazil]{babel}
-\usepackage{lipsum}
-\usepackage[left=1.06cm,top=1.7cm,right=1.06cm,bottom=0.49cm]{geometry}
-
-
-
-
-%by: Aline R. Antunes
+\usepackage[utf8]{inputenc}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\setlength{\parindent}{0pt}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage[english]{babel}
+\usepackage[left=1.5cm,top=1.5cm,right=1.5cm,bottom=1.5cm]{geometry}
+\usepackage{multicol}
 
 \begin{document}
 \begin{center}
-    \textbf{Luis Santiago V\'azquez Mancilla}\\ 
+    \textbf{Luis Santiago Vazquez Mancilla}\\ 
     \hrulefill
 \end{center}
 
 \begin{center}
-    Tuxtla Gutierrez, Chiapas, M\'exico \textbullet \ santiago\_lsvm@outlook.com \textbullet \ +528180906797
+    Tuxtla Gutierrez, Chiapas, Mexico \textbullet \ \href{mailto:santiago_lsvm@outlook.com}{santiago\_lsvm@outlook.com} \textbullet \ +52 8180906797
+
+    \textbullet \ \href{https://www.linkedin.com/in/santiagolsvm/}{linkedin.com/in/santiagolsvm/} \textbullet \ \href{https://github.com/ELESantiago}{github.com/ELESantiago}
 \end{center}
 
 \begin{center}
-    \textbf{Education}
+    \textbf{Summary}
 \end{center}
-\textbf{Polytechnic University of Chiapas} \hfill Chiapas, M\'exico
-
- Software Development Engineer \hfill Graduation Year: 2015
-
-\vspace{2pt}
-
-\textbf{Monterrey Institute of Technology and Higher Education} \hfill Nuevo Le\'on, M\'exico
-
-Master in Applied Artificial Intelligence \hfill	Graduation Year: 2026
-
-
+Senior Software Engineer with 10+ years of experience designing and building cloud-native applications using .NET, Node.js, TypeScript, React, AWS, and Azure. Experienced in distributed systems, serverless architectures, API development, and cloud modernization initiatives. Proven track record of improving system performance, reducing infrastructure costs, and delivering scalable solutions for fintech, insurance, smart TV, and enterprise software industries. Currently pursuing a Master's degree in Applied Artificial Intelligence.
 \begin{center}
     \textbf{Experience}
 \end{center}
 % Dyamanto experience
-\textbf{Dyamanto} \hfill Chiapas, M\'exico (Remote)
+\textbf{Dyamanto} \hfill Chiapas, Mexico (Remote)
 
-\textbf{Sr. Software Engineer} \hfill January 2026 – Current
+\textbf{Sr. .NET Software Engineer} \hfill January 2026 – Current
 
-Working for ICW, an American Insurance Company, 
+Working for ICW, an American Insurance Company
+
+\textbf{Technologies} C\#, .NET, AWS Step Functions, AWS CDK, XML, Snowflake
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
-    \item Performed log analysis and root-cause investigations to diagnose system issues, including API request throttling and service performance anomalies.
-    
+    \item Designed and established the architecture of a serverless data processing platform using C\#, .NET, AWS Step Functions, and AWS CDK, defining infrastructure patterns, dependency injection strategies, and application structure standards.
+    \item Developed and maintained ETL workflows integrating multiple data sources, including XML files, fixed-width text files, and Snowflake databases, enabling automated data ingestion and transformation processes.
+    \item Collaborated with cross-functional teams to define system requirements, troubleshoot production issues, and improve overall platform reliability.
 \end{itemize}
 
 \vspace{5pt}
 % Infovision Experience 
-\textbf{Infovision} \hfill Nuevo Le\'on, M\'exico (Remote)
+\textbf{Infovision} \hfill Nuevo Leon, Mexico (Remote)
 
 \textbf{Sr. Software Engineer} \hfill May 2024 - January 2026
 
 Working for Vizio, an American Smart TV manufacturer.
+
+\textbf{Technologies} NodeJs, TypeScript, AWS Lambda, AWS SDK, Google Assistant, Amazon Alexa, C\#
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
 
     \item Performed log analysis and root-cause investigations to diagnose system issues, including API request throttling and service performance anomalies.
@@ -68,11 +64,13 @@ Working for Vizio, an American Smart TV manufacturer.
 
 \vspace{5pt}
 % Kambda Experience
-\textbf{Kambda} \hfill Nuevo Le\'on, M\'exico (Remote)
+\textbf{Kambda} \hfill Nuevo Leon, Mexico (Remote)
 
 \textbf{Sr. Software Engineer} \hfill May 2021 – May 2024
 
 Working for Goodleap, a U.S. based fintech company that provides financing and software solutions for sustainable home improvements.
+
+\textbf{Technologies} NodeJs, TypeScript, AWS Lambda, AWS SDK, C\#, .NET, GraphQL, Serverless Stack (SST)
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
 
     \item Architected and delivered a long-running AWS Lambda-based reporting solution using Serverless Stack (SST), Node.js, and TypeScript, enabling automated generation of sales reports.
@@ -83,11 +81,13 @@ Working for Goodleap, a U.S. based fintech company that provides financing and s
 \vspace{5pt}
 
 % Epicor Experience
-\textbf{Epicor} \hfill Nuevo Le\'on, M\'exico
+\textbf{Epicor} \hfill Nuevo Leon, Mexico
 
 \textbf{Sr. Software Engineer} \hfill March 2020 – May 2021
 
 Epicor is a SaaS provider of ERP, CRM, SCM, and HCM that are aimed at the manufacturing, distribution, retail, and services industries.
+
+\textbf{Technologies} .NET Core, C\#, Angular, Azure Cosmos DB
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
 
     \item Reduced Azure Cosmos DB costs by 50\% by redesigning and optimizing the notification persistence workflow for user-targeted messages.
@@ -98,14 +98,16 @@ Epicor is a SaaS provider of ERP, CRM, SCM, and HCM that are aimed at the manufa
 \vspace{5pt}
 
 % Infosys Experience
-\textbf{Infosys} \hfill Nuevo Le\'on, M\'exico
+\textbf{Infosys} \hfill Nuevo Leon, Mexico
 
 \textbf{Technology Analyst} \hfill August 2018 – March 2020
 
 Infosys is a multinational information technology company that provides business consulting, information technology, and outsourcing services.
+
+\textbf{Technologies} .NET Core, .NET Framework, C\#, Angular, Redis, SQL Server
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
 
-    \item Analyzed workflow and application data to diagnose and resolve issues causing stucked business processes, improving system reliability and process completion rates.
+    \item Analyzed workflow and application data to diagnose and resolve issues causing stalled business processes, improving system reliability and process completion rates.
     \item Led the modernization of a legacy web forms application by migrating it to a contemporary technology stack, reducing technical debt.
     \item Redesigned the user experience through the implementation of a Single-Page Application (SPA), replacing callback-based interactions with responsive workflows and modern, user-friendly UI controls.
     
@@ -114,31 +116,66 @@ Infosys is a multinational information technology company that provides business
 \vspace{5pt}
 
 % Ordico Experience
-\textbf{Ordico} \hfill Chiapas, M\'exico
+\textbf{Ordico} \hfill Chiapas, Mexico
 
 \textbf{Jr. Software Engineer} \hfill December 2015 – December 2017
 
 Ordico is an information technology company that provides business consulting.
+
+\textbf{Technologies} .NET Framework, C\#, SQL Server, WPF
 \begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
 
     \item Contributed to the design, development, and enhancement of a comprehensive hotel management system, supporting core operational and business processes.
-    \item Designed and implemented the timeshare management module, translating business requirements into scalable software solutions that supported, reservations, and operational workflows.
+    \item Designed and implemented the timeshare management module, translating business requirements into scalable software solutions that supported reservations  and operational workflows.
     
 \end{itemize}
 
+
+
+\begin{center}
+    \textbf{Education}
+\end{center}
+\textbf{Polytechnic University of Chiapas} \hfill Chiapas, Mexico
+
+ Software Development Engineer \hfill Graduation Year: 2015
+
+\vspace{2pt}
+
+\textbf{Monterrey Institute of Technology and Higher Education} \hfill Nuevo Leon, Mexico
+
+Master in Applied Artificial Intelligence \hfill	Graduation Year: 2026
 \vspace{5pt}
 
 \begin{center}
-    \textbf{Skills \& Interests}
+    \textbf{Languages}
+\end{center}
+\begin{itemize}[noitemsep, topsep=0pt, partopsep=0pt, parsep=0pt]
+    \item \textbf{Spanish} Native
+    \item \textbf{English} C1
+\end{itemize}
+
+\begin{center}
+    \textbf{Skills}
 \end{center}
 
-\textbf{Technical:} \textbf{C\#} Advanced | \textbf{NodeJs} Advanced | \textbf{Javascript} Advanced | \textbf{Typescript} Advanced | \textbf{Python} Intermediate | \textbf{AWS} Advanced | \textbf{SQL} Intermediate
+\begin{tabular}{p{0.48\textwidth} p{0.48\textwidth}}
 
-\textbf{Language:} \textbf{Spanish} Native | \textbf{English} C1
+\textbf{Programming Languages} &
+\textbf{Cloud \& AWS} \\
 
-\textbf{Interests:} List activities you enjoy that may spark interview conversation
+C\#, TypeScript, JavaScript, Python, SQL &
+AWS, Lambda, Step Functions, CDK, CloudWatch, DynamoDB, SQS, Serverless Architecture, Infrastructure as Code (IaC) \\
 
+\textbf{Frameworks} &
+\textbf{Databases} \\
 
+.NET Framework, .NET Core, ASP.NET Core, React, NodeJs &
+DynamoDB, SQL Server, Snowflake, Azure Cosmos DB, MongoDB \\
 
+\textbf{Tools}
+
+Git, GitHub Actions, Docker, Terraform, REST APIs, GraphQL, Serverless Stack (SST) &
+
+\end{tabular}
 
 \end{document}
